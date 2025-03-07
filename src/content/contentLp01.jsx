@@ -21,9 +21,13 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          <span className="text-lpTitle">Aposentado ou pensionista</span>sabia
-          que você pode ter direito à
-          <span className="text-lpTitle">isenção do Imposto de Renda?</span>
+          <span className="text-lpTitle underline">
+            Aposentado ou pensionista,
+          </span>{" "}
+          sabia que você pode ter direito à{" "}
+          <span className="text-lpTitle underline">
+            isenção do Imposto de Renda?
+          </span>
         </h1>
       ),
       subtitle:
@@ -152,7 +156,8 @@ const contentLp01 = {
         pensionistas enfrentam. Por isso, atuo de forma ágil e eficiente para
         garantir seus direitos. Se você tem uma doença grave, pode ter direito à
         isenção ou até à restituição do Imposto de Renda já pago.
-        <br /><br />
+        <br />
+        <br />
         Minha missão é encontrar a melhor solução jurídica para você. Entre em
         contato e descubra como podemos ajudar!
       </p>
@@ -263,8 +268,7 @@ const contentLp01 = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "SEU DIREITO SEM COMPLICAÇÃO",
-      title:
-        "Garanta sua isenção ou restituição agora mesmo!",
+      title: "Garanta sua isenção ou restituição agora mesmo!",
       subtitle: `Se você é aposentado ou pensionista com doença grave, pode ter direito à isenção ou até à restituição do Imposto de Renda. Nossa equipe especializada está pronta para te ajudar a garantir esse benefício de forma rápida e sem burocracia. Não deixe dinheiro para o governo à toa!`,
     },
     buttonLabel: "Falar com uma especialista agora",
