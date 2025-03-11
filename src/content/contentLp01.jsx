@@ -263,7 +263,7 @@ const contentLp01 = {
   form: {
     miniTag: "FORMULÁRIO",
     title: "Envie suas informações e receba uma orientação gratuita",
-    subtitle: "Seus ados estão seguros e protegidos pela LGPD - Lei Geral de Proteção de Dados (13.709/2018)",
+    subtitle: "Seus dados estão seguros e protegidos pela LGPD - Lei Geral de Proteção de Dados (13.709/2018)",
   },
   cta: {
     bgImg: bgImg,
