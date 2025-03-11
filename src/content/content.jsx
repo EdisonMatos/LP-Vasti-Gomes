@@ -98,11 +98,11 @@ const content = {
       miniTag: "ADVOGADA CÍVEL E TRIBUTÁRIA EM SOROCABA - SP",
       title: (
         <h1 className="mb-[16px]">
-          Justiça que cuida da sua história com empatia
+          Respeito sua história e defendo com eficiência seus direitos
         </h1>
       ),
       subtitle:
-        "Com a Dra. Vasti Gomes, você recebe assessoria jurídica especializada e humanizada para aposentados e pensionistas.",
+        "Com a Dra. Vasti Gomes, você recebe assessoria jurídica especializada e humanizada em conflitos contratuais, familiares e na recuperação de impostos pagos indevidamente por empresas, aposentados, pensionistas e reformados.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
