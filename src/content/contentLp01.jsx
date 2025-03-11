@@ -264,8 +264,8 @@ const contentLp01 = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "SEU DIREITO SEM COMPLICAÇÃO",
-      title: "Garanta sua isenção ou restituição agora mesmo!",
-      subtitle: `Se você é aposentado ou pensionista com doença grave, pode ter direito à isenção ou até à restituição do Imposto de Renda. Nossa equipe especializada está pronta para te ajudar a garantir esse benefício de forma rápida e sem burocracia. Não deixe dinheiro para o governo à toa!`,
+      title: "Garanta sua isenção e restituição agora mesmo!",
+      subtitle: `Se você é aposentado ou pensionista com doença grave, pode ter direito à isenção e até à restituição do Imposto de Renda. Nossa equipe especializada está pronta para te ajudar a garantir esse benefício de forma rápida e sem burocracia. Não deixe dinheiro para o governo à toa!`,
     },
     buttonLabel: "Falar com uma especialista agora",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
