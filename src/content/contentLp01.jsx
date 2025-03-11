@@ -152,14 +152,10 @@ const contentLp01 = {
     },
     paragraph: (
       <p>
-        Pagar imposto indevidamente é um problema que muitos aposentados e
-        pensionistas enfrentam. Por isso, atuo de forma ágil e eficiente para
-        garantir seus direitos. Se você tem uma doença grave, pode ter direito à
-        isenção ou até à restituição do Imposto de Renda já pago.
+        Pagar imposto indevidamente é um problema que muitos aposentados e pensionistas enfrentam. Por isso, atuo de forma ágil e eficiente para garantir seus direitos. Se você tem uma doença grave, pode ter direito à isenção e até à restituição do Imposto de Renda já pago.
         <br />
         <br />
-        Minha missão é encontrar a melhor solução jurídica para você. Entre em
-        contato e descubra como podemos ajudar!
+        Minha missão é encontrar a melhor solução jurídica para você. Entre em contato e descubra como podemos ajudar!
       </p>
     ),
     buttonLabel: "Solicite sua isenção agora",
