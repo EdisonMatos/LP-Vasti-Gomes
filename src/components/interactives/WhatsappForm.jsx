@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.webp";
-import { CiUser, CiPhone, CiMail, CiCreditCard1, CiBank } from "react-icons/ci";
+import { CiUser, CiPhone, CiMail, CiChat1, CiCreditCard1, CiBank } from "react-icons/ci";
 
 const WhatsappForm = () => {
   const [name, setName] = useState("");
@@ -11,7 +11,7 @@ const WhatsappForm = () => {
   const [question, setQuestion] = useState("");
 
   // const [uf, setUf] = useState("");
-  // const [message, setMessage] = useState("");
+  const [message, setMessage] = useState("");
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -71,9 +71,9 @@ const WhatsappForm = () => {
       validationErrors.question = "O campo é obrigatório.";
     } else !validatewage(wage);
 
-    // if (!validateMessage(message)) {
-    //   validationErrors.message = "O campo mensagem é obrigatório.";
-    // }
+    if (!validateMessage(message)) {
+      validationErrors.message = "O campo mensagem é obrigatório.";
+    }
 
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
@@ -85,10 +85,11 @@ const WhatsappForm = () => {
     const whatsappNumber = "5599984234461"; // Certifique-se de que este número está correto com o código do país
     const formattedPhone = phone.replace(/\D/g, ""); // Remover caracteres não numéricos
 
-    const whatsappMessage = `Olá! Meu nome é ${name}.%0A
-    question: ${question}.%0A
+    const whatsappMessage = `Nome: ${name}.%0A
+    Aposentado ou Pensionista: ${question}.%0A
     Telefone: ${formattedPhone}.%0A
     E-mail: ${email}.%0A
+    Diagnóstico: ${message}.%0A
     Salário: R$ ${wage}`;
 
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
@@ -138,7 +139,7 @@ const WhatsappForm = () => {
   //   return uf.trim().length >= 5; // Requer ao menos 5 caracteres para Cidade e Estado
   // };
 
-  // const validateMessage = (message) => !!message;
+  const validateMessage = (message) => !!message;
 
   const formatPhoneNumber = (phoneNumber) => {
     let cleaned = phoneNumber.replace(/\D/g, ""); // Remove tudo que não for número
@@ -256,7 +257,7 @@ const WhatsappForm = () => {
           )}
         </div>
         {/* Mensagem */}
-        {/* <div className="mb-6">
+        <div className="mb-6">
           <div className="flex mb-2 text-gray-500 tablet1:mb-0">
             <div className="flex items-start justify-center w-12 px-1 bg-white">
               <CiChat1 className="mt-[14px]" />
@@ -271,7 +272,7 @@ const WhatsappForm = () => {
             />
           </div>
           {errors.message && <p className="text-red-500">{errors.message}</p>}
-        </div> */}
+        </div>
         {/* Botão */}
         <button
           type="button"
