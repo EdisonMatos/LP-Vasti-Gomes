@@ -26,12 +26,12 @@ const contentLp01 = {
           </span>{" "}
           sabia que você pode ter direito à{" "}
           <span className="text-lpTitle underline">
-            isenção do Imposto de Renda?
+          isenção do Imposto de Renda dos últimos 5 anos?
           </span>
         </h1>
       ),
       subtitle:
-        "Se você tem uma doença grave, pode garantir a isenção ou restituição do Imposto de Renda. Descubra seus direitos com uma advogada especializada.",
+        "Se você tem uma doença grave ou já curou-se dessa doença, poderá garantir a isenção e restituição do Imposto de Renda descontados da sua aposentadoria ou pensão! Descubra seus direitos com uma Advogada Especialista.",
       buttonLabel: "Solicite sua isenção agora!",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
