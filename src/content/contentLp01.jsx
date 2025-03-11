@@ -164,7 +164,7 @@ const contentLp01 = {
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title: "Por que nos escolher para garantir sua isenção ou restituição?",
+      title: "Por que nos escolher para garantir sua isenção e restituição?",
     },
     cards: {
       card1: {
@@ -189,7 +189,7 @@ const contentLp01 = {
         ),
         title: "Análise detalhada para sua isenção",
         description:
-          "Cada caso é único. Avaliamos sua situação com atenção para garantir sua isenção ou restituição de forma segura e sem complicações.",
+          "Cada caso é único. Avaliamos sua situação com atenção para garantir sua isenção e restituição de forma segura e sem complicações.",
       },
       card2: {
         icon: (
@@ -256,7 +256,7 @@ const contentLp01 = {
         ),
         title: "Experiência que faz a diferença",
         description:
-          "Com anos de atuação, sabemos exatamente como garantir sua isenção ou restituição com segurança e eficiência.",
+          "Com anos de atuação, sabemos exatamente como garantir sua isenção e restituição com segurança e eficiência.",
       },
     },
   },
