@@ -167,7 +167,7 @@ const content = {
     features: {
       miniTag: "ÁREAS DE ATUAÇÃO",
       title: "Expertise em Direito Cível e Tributário",
-      subtitle: "Estratégias jurídicas poderosas para garantir seus direitos.",
+      subtitle: "Estratégias jurídicas eficientes para garantir seus direitos.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
