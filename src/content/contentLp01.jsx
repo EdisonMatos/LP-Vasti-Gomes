@@ -41,7 +41,7 @@ const contentLp01 = {
     sectionHeader: {
       miniTag: "ISENÇÃO DE IMPOSTO",
       title:
-        "Você tem direito à isenção ou restituição do Imposto de Renda? Descubra agora!",
+        "Você tem direito à isenção e restituição do Imposto de Renda? Descubra agora!",
     },
     cards: {
       card1: {
@@ -65,9 +65,9 @@ const contentLp01 = {
             <circle cx="6" cy="5" r="3" />
           </svg>
         ),
-        title: "Isenção do Imposto de Renda",
+        title: "Requisitos para isenção e restituição",
         description:
-          "Aposentados e pensionistas com doenças graves podem ter direito à isenção do IR. ",
+          "Laudo Médico comprovando a doença Grave, prontuários e exames e ser aposentado, pensionista, Servidor público, Militar da Reserva ou Reformado ou Beneficiário de Previdência Privada. ",
       },
       card2: {
         icon: (
@@ -114,7 +114,7 @@ const contentLp01 = {
         ),
         title: "Doenças que garantem o benefício",
         description:
-          "Diversas doenças dão direito à isenção do IR, como câncer, cardiopatia grave e mais.",
+          "AIDS, Alienação Mental, Cardiopatia Grave, Cegueira (inclusive monocular), Contaminação por Radiação, Doença de Paget em estados avançados (Osteíte Deformante), Doença de Parkinson e Esclerose Múltipla.",
       },
       card4: {
         icon: (
@@ -136,7 +136,7 @@ const contentLp01 = {
         ),
         title: "Suporte jurídico especializado",
         description:
-          "Conte com uma advogada especializada para garantir sua isenção ou restituição sem complicações.",
+          "Conte com uma advogada especializada para garantir sua isenção e restituição sem complicações.",
       },
     },
   },
