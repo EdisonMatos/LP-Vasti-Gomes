@@ -178,8 +178,8 @@ const content = {
           <div>
             A_Definir
             <br />
-            <br />
-            A_Definir
+            <br />n
+            A_Defiir
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -208,7 +208,7 @@ const content = {
       card2: {
         img: featuresImg2,
         title: "Família e Sucessões",
-        subtitle: "Resolução de conflitos familiares e questões sucessórias.",
+        subtitle: "Soluções jurídicas em casamento, divórcio, guarda, pensão, partilha, paternidade, adoção e planejamento familiar.",
         description: (
           <div>
             A_Definir
@@ -243,7 +243,7 @@ const content = {
       card3: {
         img: featuresImg3,
         title: "Planejamento Tributário",
-        subtitle: "Estratégias jurídicas para otimizar a carga tributária.",
+        subtitle: "Estratégias jurídicas para diminuir a carga tributária.",
         description: (
           <div>
             A_Definir <br />
@@ -275,8 +275,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Contencioso Tributário",
-        subtitle: "Defesa contra tributos indevidos e cobrança excessiva.",
+        title: "Consumidor",
+        subtitle: "Proteção contratual, defesa do consumidor, publicidade enganosa, indenização, acesso à justiça e facilitação da defesa dos seus direitos.",
         description: (
           <div>
             A_Definir
