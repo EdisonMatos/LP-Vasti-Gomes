@@ -17,9 +17,9 @@ export default function FormSection() {
   const [modalTitle, setModalTitle] = useState("");
 
   return (
-    <SectionArea>
+    <SectionArea paddingtop={false}>
       {/* <SectionShapeDiv shapeDivArrow shapeColor="text-white"/> */}
-      <SectionWrapper className="">
+      <SectionWrapper>
         <MotionDivDownToUp className="flex-col w-full desktop1:w-[50%] flex justify-center items-center ">
           <SectionHeader
             className="text-center desktop1:flex desktop1:w-full"
