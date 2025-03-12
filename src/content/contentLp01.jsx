@@ -261,8 +261,8 @@ const contentLp01 = {
     },
   },
   form: {
-    miniTag: "FORMULÁRIO",
-    title: "Envie suas informações e receba uma orientação gratuita",
+    miniTag: "ORIENTAÇÃO GRATUITA",
+    title: "Preencha e descubra seus direitos",
     subtitle: "Seus dados estão seguros e protegidos pela LGPD - Lei Geral de Proteção de Dados (13.709/2018)",
   },
   cta: {

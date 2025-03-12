@@ -267,7 +267,7 @@ const WhatsappForm = () => {
               id="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              placeholder="Conte um pouco sua situação:"
+              placeholder="Informe seu diagnóstico:"
               required
             />
           </div>
