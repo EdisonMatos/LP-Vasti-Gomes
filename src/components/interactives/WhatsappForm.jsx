@@ -68,11 +68,11 @@ const WhatsappForm = () => {
     } else !validatewage(wage);
 
     if (!question) {
-      validationErrors.question = "O campo é obrigatório.";
+      validationErrors.question = "O campo Aposentado ou Pensionista é obrigatório.";
     } else !validatewage(wage);
 
     if (!validateMessage(message)) {
-      validationErrors.message = "O campo mensagem é obrigatório.";
+      validationErrors.message = "O campo Mensagem é obrigatório.";
     }
 
     if (Object.keys(validationErrors).length > 0) {
