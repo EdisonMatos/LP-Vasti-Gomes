@@ -17,7 +17,7 @@ export default function FormSection() {
   const [modalTitle, setModalTitle] = useState("");
 
   return (
-    <SectionArea className="bg-bgSectionDark ">
+    <SectionArea>
       {/* <SectionShapeDiv shapeDivArrow shapeColor="text-white"/> */}
       <SectionWrapper className="">
         <MotionDivDownToUp className="flex-col w-full desktop1:w-[50%] flex justify-center items-center ">
@@ -26,10 +26,9 @@ export default function FormSection() {
             miniTitle={contentLp01.form.miniTag}
             sectionHeaderTitle={contentLp01.form.title}
             sectionHeaderSubtitle={contentLp01.form.subtitle}
-            color=""
+            color="dark"
             type=""
-            titleColorSet="text-white"
-            subtitleColorSet="text-white"
+            titleColorSet="text-secondary"
           />
           <WhatsappForm />
         </MotionDivDownToUp>

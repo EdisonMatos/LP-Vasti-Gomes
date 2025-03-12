@@ -90,7 +90,7 @@ const WhatsappForm = () => {
     Telefone: ${formattedPhone}.%0A
     E-mail: ${email}.%0A
     Diagnóstico: ${message}.%0A
-    Salário: R$ ${wage}`;
+    Salário: ${wage}`;
 
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
@@ -161,7 +161,7 @@ const WhatsappForm = () => {
   };
 
   return (
-    <div className=" bg-[#0E2B40] p-6 rounded-[10px] w-full h-auto">
+    <div className=" bg-bgSectionDark p-6 rounded-[10px] w-full h-auto">
       <div className="w-full text-paragraph3 phone3:text-paragraph4 ">
         {/* <h1 className="w-full mb-2 font-medium text-white">Fale conosco</h1> */}
         {/* Nome */}
