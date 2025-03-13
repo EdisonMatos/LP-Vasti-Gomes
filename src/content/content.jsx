@@ -63,7 +63,7 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda à sexta-feira</p>
-      <p>8h às 20h</p>
+      <p>10h às 20h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -98,11 +98,11 @@ const content = {
       miniTag: "ADVOGADA CÍVEL E TRIBUTÁRIA EM SOROCABA - SP",
       title: (
         <h1 className="mb-[16px]">
-          Justiça que cuida da sua história com empatia
+          Respeito sua história e defendo com eficiência seus direitos
         </h1>
       ),
       subtitle:
-        "Com a Dra. Vasti Gomes, você recebe assessoria jurídica especializada e humanizada para aposentados e pensionistas.",
+        "Com a Dra. Vasti Gomes, você recebe assessoria jurídica especializada e humanizada em conflitos contratuais, familiares e na recuperação de impostos pagos indevidamente por empresas, aposentados, pensionistas e reformados.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -167,7 +167,7 @@ const content = {
     features: {
       miniTag: "ÁREAS DE ATUAÇÃO",
       title: "Expertise em Direito Cível e Tributário",
-      subtitle: "Estratégias jurídicas poderosas para garantir seus direitos.",
+      subtitle: "Estratégias jurídicas eficientes para garantir seus direitos.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
@@ -178,8 +178,8 @@ const content = {
           <div>
             A_Definir
             <br />
-            <br />
-            A_Definir
+            <br />n
+            A_Defiir
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -208,7 +208,7 @@ const content = {
       card2: {
         img: featuresImg2,
         title: "Família e Sucessões",
-        subtitle: "Resolução de conflitos familiares e questões sucessórias.",
+        subtitle: "Soluções jurídicas em casamento, divórcio, guarda, pensão, partilha, paternidade, adoção e planejamento familiar.",
         description: (
           <div>
             A_Definir
@@ -243,7 +243,7 @@ const content = {
       card3: {
         img: featuresImg3,
         title: "Planejamento Tributário",
-        subtitle: "Estratégias jurídicas para otimizar a carga tributária.",
+        subtitle: "Estratégias jurídicas para diminuir a carga tributária.",
         description: (
           <div>
             A_Definir <br />
@@ -275,8 +275,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Contencioso Tributário",
-        subtitle: "Defesa contra tributos indevidos e cobrança excessiva.",
+        title: "Consumidor",
+        subtitle: "Proteção contratual, defesa do consumidor, publicidade enganosa, indenização, acesso à justiça e facilitação da defesa dos seus direitos.",
         description: (
           <div>
             A_Definir

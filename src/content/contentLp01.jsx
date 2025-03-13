@@ -26,12 +26,12 @@ const contentLp01 = {
           </span>{" "}
           sabia que você pode ter direito à{" "}
           <span className="text-lpTitle underline">
-            isenção do Imposto de Renda?
+          isenção do Imposto de Renda dos últimos 5 anos?
           </span>
         </h1>
       ),
       subtitle:
-        "Se você tem uma doença grave, pode garantir a isenção ou restituição do Imposto de Renda. Descubra seus direitos com uma advogada especializada.",
+        "Se você tem uma doença grave ou já curou-se dessa doença, poderá garantir a isenção e restituição do Imposto de Renda descontados da sua aposentadoria ou pensão! Descubra seus direitos com uma Advogada Especialista.",
       buttonLabel: "Solicite sua isenção agora!",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -41,7 +41,7 @@ const contentLp01 = {
     sectionHeader: {
       miniTag: "ISENÇÃO DE IMPOSTO",
       title:
-        "Você tem direito à isenção ou restituição do Imposto de Renda? Descubra agora!",
+        "Você tem direito à isenção e restituição do Imposto de Renda? Descubra agora!",
     },
     cards: {
       card1: {
@@ -65,9 +65,9 @@ const contentLp01 = {
             <circle cx="6" cy="5" r="3" />
           </svg>
         ),
-        title: "Isenção do Imposto de Renda",
+        title: "Requisitos para isenção e restituição",
         description:
-          "Aposentados e pensionistas com doenças graves podem ter direito à isenção do IR. ",
+          "Laudo Médico comprovando a doença Grave, prontuários e exames e ser aposentado, pensionista, Servidor público, Militar da Reserva ou Reformado ou Beneficiário de Previdência Privada. ",
       },
       card2: {
         icon: (
@@ -114,7 +114,7 @@ const contentLp01 = {
         ),
         title: "Doenças que garantem o benefício",
         description:
-          "Diversas doenças dão direito à isenção do IR, como câncer, cardiopatia grave e mais.",
+          "AIDS, Alienação Mental, Cardiopatia Grave, Cegueira (inclusive monocular), Contaminação por Radiação, Doença de Paget em estados avançados (Osteíte Deformante), Doença de Parkinson e Esclerose Múltipla.",
       },
       card4: {
         icon: (
@@ -136,7 +136,7 @@ const contentLp01 = {
         ),
         title: "Suporte jurídico especializado",
         description:
-          "Conte com uma advogada especializada para garantir sua isenção ou restituição sem complicações.",
+          "Conte com uma advogada especializada para garantir sua isenção e restituição sem complicações.",
       },
     },
   },
@@ -152,14 +152,10 @@ const contentLp01 = {
     },
     paragraph: (
       <p>
-        Pagar imposto indevidamente é um problema que muitos aposentados e
-        pensionistas enfrentam. Por isso, atuo de forma ágil e eficiente para
-        garantir seus direitos. Se você tem uma doença grave, pode ter direito à
-        isenção ou até à restituição do Imposto de Renda já pago.
+        Pagar imposto indevidamente é um problema que muitos aposentados e pensionistas enfrentam. Por isso, atuo de forma ágil e eficiente para garantir seus direitos. Se você tem uma doença grave, pode ter direito à isenção e até à restituição do Imposto de Renda já pago.
         <br />
         <br />
-        Minha missão é encontrar a melhor solução jurídica para você. Entre em
-        contato e descubra como podemos ajudar!
+        Minha missão é encontrar a melhor solução jurídica para você. Entre em contato e descubra como podemos ajudar!
       </p>
     ),
     buttonLabel: "Solicite sua isenção agora",
@@ -168,7 +164,7 @@ const contentLp01 = {
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title: "Por que nos escolher para garantir sua isenção ou restituição?",
+      title: "Por que nos escolher para garantir sua isenção e restituição?",
     },
     cards: {
       card1: {
@@ -193,7 +189,7 @@ const contentLp01 = {
         ),
         title: "Análise detalhada para sua isenção",
         description:
-          "Cada caso é único. Avaliamos sua situação com atenção para garantir sua isenção ou restituição de forma segura e sem complicações.",
+          "Cada caso é único. Avaliamos sua situação com atenção para garantir sua isenção e restituição de forma segura e sem complicações.",
       },
       card2: {
         icon: (
@@ -260,16 +256,21 @@ const contentLp01 = {
         ),
         title: "Experiência que faz a diferença",
         description:
-          "Com anos de atuação, sabemos exatamente como garantir sua isenção ou restituição com segurança e eficiência.",
+          "Com anos de atuação, sabemos exatamente como garantir sua isenção e restituição com segurança e eficiência.",
       },
     },
+  },
+  form: {
+    miniTag: "ORIENTAÇÃO GRATUITA",
+    title: "Preencha e descubra seus direitos",
+    subtitle: "Seus dados estão seguros e protegidos pela LGPD - Lei Geral de Proteção de Dados (13.709/2018)",
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "SEU DIREITO SEM COMPLICAÇÃO",
-      title: "Garanta sua isenção ou restituição agora mesmo!",
-      subtitle: `Se você é aposentado ou pensionista com doença grave, pode ter direito à isenção ou até à restituição do Imposto de Renda. Nossa equipe especializada está pronta para te ajudar a garantir esse benefício de forma rápida e sem burocracia. Não deixe dinheiro para o governo à toa!`,
+      title: "Garanta sua isenção e restituição agora mesmo!",
+      subtitle: `Se você é aposentado ou pensionista com doença grave, pode ter direito à isenção e até à restituição do Imposto de Renda. Nossa equipe especializada está pronta para te ajudar a garantir esse benefício de forma rápida e sem burocracia. Não deixe dinheiro para o governo à toa!`,
     },
     buttonLabel: "Falar com uma especialista agora",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
