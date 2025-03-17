@@ -21,13 +21,14 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          <span className="text-lpTitle underline">
+          <span className="text-blue-200 text-lpTitle">
             Aposentado ou pensionista,
           </span>{" "}
           sabia que você pode ter direito à{" "}
-          <span className="text-lpTitle underline">
-          isenção do Imposto de Renda dos últimos 5 anos?
-          </span>
+          <span className="text-blue-200  text-lpTitle">
+            isenção do Imposto de Renda
+          </span>{" "}
+          dos últimos 5 anos?
         </h1>
       ),
       subtitle:
@@ -152,10 +153,14 @@ const contentLp01 = {
     },
     paragraph: (
       <p>
-        Pagar imposto indevidamente é um problema que muitos aposentados e pensionistas enfrentam. Por isso, atuo de forma ágil e eficiente para garantir seus direitos. Se você tem uma doença grave, pode ter direito à isenção e até à restituição do Imposto de Renda já pago.
+        Pagar imposto indevidamente é um problema que muitos aposentados e
+        pensionistas enfrentam. Por isso, atuo de forma ágil e eficiente para
+        garantir seus direitos. Se você tem uma doença grave, pode ter direito à
+        isenção e até à restituição do Imposto de Renda já pago.
         <br />
         <br />
-        Minha missão é encontrar a melhor solução jurídica para você. Entre em contato e descubra como podemos ajudar!
+        Minha missão é encontrar a melhor solução jurídica para você. Entre em
+        contato e descubra como podemos ajudar!
       </p>
     ),
     buttonLabel: "Solicite sua isenção agora",
@@ -263,7 +268,8 @@ const contentLp01 = {
   form: {
     miniTag: "ORIENTAÇÃO GRATUITA",
     title: "Preencha e descubra seus direitos",
-    subtitle: "Seus dados estão seguros e protegidos pela LGPD - Lei Geral de Proteção de Dados (13.709/2018)",
+    subtitle:
+      "Seus dados estão seguros e protegidos pela LGPD - Lei Geral de Proteção de Dados (13.709/2018)",
   },
   cta: {
     bgImg: bgImg,

@@ -68,8 +68,7 @@ export const infos = {
   ),
   obs: <span className="italic">A Definir</span>,
   instagramProfile: "vastigomes.adv", // Sem o @
-  facebookProfile:
-    "vasti.gomesdasilva",
+  facebookProfile: "vasti.gomesdasilva",
   linkeDinProfile: "vasti-gomes-972578215/?originalSubdomain=br",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -178,8 +177,7 @@ const content = {
           <div>
             A_Definir
             <br />
-            <br />n
-            A_Defiir
+            <br />n A_Defiir
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -207,8 +205,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Família e Sucessões",
-        subtitle: "Soluções jurídicas em casamento, divórcio, guarda, pensão, partilha, paternidade, adoção e planejamento familiar.",
+        title: "Família",
+        subtitle:
+          "Soluções jurídicas em casamento, divórcio, guarda, pensão, partilha, paternidade, adoção e planejamento familiar.",
         description: (
           <div>
             A_Definir
@@ -276,7 +275,8 @@ const content = {
       card4: {
         img: featuresImg4,
         title: "Consumidor",
-        subtitle: "Proteção contratual, defesa do consumidor, publicidade enganosa, indenização, acesso à justiça e facilitação da defesa dos seus direitos.",
+        subtitle:
+          "Proteção contratual, defesa do consumidor, publicidade enganosa, indenização, acesso à justiça e facilitação da defesa dos seus direitos.",
         description: (
           <div>
             A_Definir
@@ -451,8 +451,9 @@ const content = {
           suas dores e oferece respostas claras.
           <br />
           <br />
-          Meu trabalho não é apenas sobre ganhar casos, mas sobre fazer a
-          diferença na vida daqueles com quem tenho a honra de trabalhar.
+          Meu trabalho não é apenas sobre ganhar causas ou processsos, mas sobre
+          fazer a diferença na vida daqueles com quem tenho a honra de
+          trabalhar.
           <br />
           <br />
         </p>

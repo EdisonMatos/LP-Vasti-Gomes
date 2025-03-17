@@ -46,7 +46,7 @@ export default function Lp01() {
       <FeaturesLP />
       <AboutParalaxeLP logo={true} />
       <WhyUs />
-      <FormSection/>
+      <FormSection />
       <CtaLP />
       {/* <Faq /> */}
       <ContactLP />
