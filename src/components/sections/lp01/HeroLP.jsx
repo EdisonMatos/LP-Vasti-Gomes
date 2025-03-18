@@ -118,7 +118,7 @@ export default function HeroLP({ fullImg }) {
                             label={contentLp01.hero.textArea.buttonLabel}
                             buttonLink={contentLp01.links.ctaWhatsapp}
                             animation
-                            className="w-[100%] text-black bg-blue-200"
+                            className="w-[100%] text-black bg-blue-300"
                             icon={
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"

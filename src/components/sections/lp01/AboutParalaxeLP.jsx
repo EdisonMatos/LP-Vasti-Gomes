@@ -63,7 +63,7 @@ export default function AboutParalaxeLP({ logo }) {
                         label={contentLp01.about.buttonLabel}
                         buttonLink={contentLp01.links.ctaWhatsapp}
                         animation
-                        className="bg-blue-200"
+                        className="bg-blue-300"
                         icon={
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
