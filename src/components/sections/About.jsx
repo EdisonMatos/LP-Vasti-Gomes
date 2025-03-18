@@ -50,25 +50,20 @@ export default function About({ modal = "true" }) {
     <SectionArea id="about" className="bg-bgSectionDark">
       <SectionShapeDiv shapeDivArrow={false} shapeColor="text-white" />
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
-        <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
+        {/* <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <div
             style={{
               backgroundImage: `url(${content.texts.about.imagem.img})`,
             }}
             className="relative bg-center bg-no-repeat bg-cover h-[500px] phone2:h-[550px] phone3:h-[610px] w-[90%] tablet1:h-[910px] tablet2:h-[1080px] desktop1:h-[600px] desktop2:h-[800px] rounded-xl shadow-custom-opacity shadow-black/30"
-          >
-            {/* <img className="rounded-xl tablet1:h-[800px] w-full" src={content.texts.about.imagem.img} alt="" /> */}
-            {/* <img
-              alt="Imagem de efeito pontilhado"
-              src={imgPoints}
-              className="absolute opacity-30 right-[-10px] top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
-            ></img> */}
-          </div>
-          {/* <img
+          ></div>
+        </MotionDivDownToUp> */}
+        <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-black/30">
+          <img
             src={content.texts.about.imagem.img}
-            alt="Imagem de uma praia de Arraial"
-            className=""
-        /> */}
+            alt={content.texts.about.imagem.alt}
+            className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl"
+          />
         </MotionDivDownToUp>
 
         <div className="desktop1:w-[550px] desktop2:w-[570px] ">
