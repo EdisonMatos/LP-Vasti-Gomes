@@ -26,9 +26,12 @@ const contentLp01 = {
           </span>{" "}
           sabia que você pode ter direito à{" "}
           <span className="text-blue-200  text-lpTitle">
-            isenção do Imposto de Renda
+            isenção do Imposto de Renda{" "}
           </span>{" "}
-          dos últimos 5 anos?
+          e à restituição dos valores pagos indevidamente{" "}
+          <span className="text-blue-200  text-lpTitle">
+            dos últimos 5 anos?{" "}
+          </span>{" "}
         </h1>
       ),
       subtitle:
