@@ -26,9 +26,12 @@ const contentLp01 = {
           </span>{" "}
           sabia que você pode ter direito à{" "}
           <span className="text-blue-200  text-lpTitle">
-            isenção do Imposto de Renda
+            isenção do Imposto de Renda{" "}
           </span>{" "}
-          dos últimos 5 anos?
+          e à restituição dos valores pagos indevidamente{" "}
+          <span className="text-blue-200  text-lpTitle">
+            dos últimos 5 anos?{" "}
+          </span>{" "}
         </h1>
       ),
       subtitle:
@@ -261,7 +264,7 @@ const contentLp01 = {
         ),
         title: "Experiência que faz a diferença",
         description:
-          "Com anos de atuação, sabemos exatamente como garantir sua isenção e restituição com segurança e eficiência.",
+          "Com nossa técnica especializada,  sabemos exatamente como garantir sua isenção e restituição com segurança e eficiência.",
       },
     },
   },
@@ -276,7 +279,22 @@ const contentLp01 = {
     sectionHeader: {
       miniTag: "SEU DIREITO SEM COMPLICAÇÃO",
       title: "Garanta sua isenção e restituição agora mesmo!",
-      subtitle: `Se você é aposentado ou pensionista com doença grave, pode ter direito à isenção e até à restituição do Imposto de Renda. Nossa equipe especializada está pronta para te ajudar a garantir esse benefício de forma rápida e sem burocracia. Não deixe dinheiro para o governo à toa!`,
+      subtitle: (
+        <p>
+          Se você ou um familiar seu, aposentado ou pensionista com doença
+          grave, ou mesmo que já esteja curado dessa doença, poderá ter direito
+          à isenção e possivelmente à restituição dos valores pagos
+          indevidamente no seu Imposto de Renda!
+          <br />
+          <br />
+          Nossa equipe especializada está pronta para te ajudar a garantir seus
+          direitos de forma eficiente, com atendimento personalizado!
+          <br />
+          <br />
+          Recupere seu dinheiro que está retido nas mãos do governo e aproveite
+          para usufruir do que é seu de direito!
+        </p>
+      ),
     },
     buttonLabel: "Falar com uma especialista agora",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
