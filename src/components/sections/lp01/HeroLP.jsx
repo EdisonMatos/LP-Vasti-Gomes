@@ -17,7 +17,7 @@ export default function HeroLP({ fullImg }) {
           <img
             src={contentLp01.hero.logo.logoImg}
             alt={contentLp01.hero.logo.alt}
-            className="ml-[5%] max-w-[40%] pt-[15%]"
+            className="ml-[5%] max-w-[70%] pt-[15%]"
           />
         </MotionDivDownToUp>
         <SectionArea paddingTopAndBottom={false}>
