@@ -55,8 +55,9 @@ export default function About({ modal = "true" }) {
             style={{
               backgroundImage: `url(${content.texts.about.imagem.img})`,
             }}
-            className="shadow-custom-opacity shadow-black/30 relative bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
+            className="relative bg-center bg-no-repeat bg-cover h-[500px] phone2:h-[550px] phone3:h-[610px] w-[90%] tablet1:h-[910px] tablet2:h-[1080px] desktop1:h-[600px] desktop2:h-[800px] rounded-xl shadow-custom-opacity shadow-black/30"
           >
+            {/* <img className="rounded-xl tablet1:h-[800px] w-full" src={content.texts.about.imagem.img} alt="" /> */}
             {/* <img
               alt="Imagem de efeito pontilhado"
               src={imgPoints}
