@@ -261,7 +261,7 @@ const contentLp01 = {
         ),
         title: "Experiência que faz a diferença",
         description:
-          "Com anos de atuação, sabemos exatamente como garantir sua isenção e restituição com segurança e eficiência.",
+          "Com nossa técnica especializada,  sabemos exatamente como garantir sua isenção e restituição com segurança e eficiência.",
       },
     },
   },
