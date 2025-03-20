@@ -207,7 +207,7 @@ const content = {
         img: featuresImg2,
         title: "Família",
         subtitle:
-          "Soluções jurídicas em casamento, divórcio, guarda, pensão, partilha, paternidade, adoção e planejamento familiar.",
+          "Soluções judiciais e extrajudiciais em União Estável, casamento, divórcio,  guarda, pensão, partilha, paternidade, adoção e planejamento familiar.",
         description: (
           <div>
             A_Definir
@@ -242,7 +242,8 @@ const content = {
       card3: {
         img: featuresImg3,
         title: "Planejamento Tributário",
-        subtitle: "Estratégias jurídicas para diminuir a carga tributária.",
+        subtitle:
+          "Estratégias jurídicas ou administrativas para diminuir a carga tributária.",
         description: (
           <div>
             A_Definir <br />
@@ -399,6 +400,7 @@ const content = {
           mas em transformar a vida das pessoas, oferecendo soluções que
           realmente façam diferença.
           <br />
+          <br />
           Especializei-me em Isenção e Restituição do Imposto de Renda para
           Aposentados e Pensionistas com Doenças Graves, porque entendo
           profundamente a complexidade que envolve não só a luta contra a
@@ -451,7 +453,7 @@ const content = {
           suas dores e oferece respostas claras.
           <br />
           <br />
-          Meu trabalho não é apenas sobre ganhar causas ou processsos, mas sobre
+          Meu trabalho não é apenas sobre ganhar causas ou processos, mas sobre
           fazer a diferença na vida daqueles com quem tenho a honra de
           trabalhar.
           <br />

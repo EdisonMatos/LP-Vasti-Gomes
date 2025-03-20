@@ -21,17 +21,11 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          <span className="text-blue-200 text-lpTitle">
-            Aposentado ou pensionista,
-          </span>{" "}
+          <span className=" text-lpTitle">Aposentado ou pensionista,</span>{" "}
           sabia que você pode ter direito à{" "}
-          <span className="text-blue-200  text-lpTitle">
-            isenção do Imposto de Renda{" "}
-          </span>{" "}
-          e à restituição dos valores pagos indevidamente{" "}
-          <span className="text-blue-200  text-lpTitle">
-            dos últimos 5 anos?{" "}
-          </span>{" "}
+          <span className="  text-lpTitle">isenção do Imposto de Renda </span> e
+          à restituição dos valores pagos indevidamente{" "}
+          <span className="  text-lpTitle">dos últimos 5 anos? </span>{" "}
         </h1>
       ),
       subtitle:
@@ -140,7 +134,7 @@ const contentLp01 = {
         ),
         title: "Suporte jurídico especializado",
         description:
-          "Conte com uma advogada especializada para garantir sua isenção e restituição sem complicações.",
+          "Conte com uma Advogada Especializada para garantir sua isenção e restituição de forma adequada.",
       },
     },
   },
@@ -218,9 +212,9 @@ const contentLp01 = {
             <path d="M12 7v5l4 2" />
           </svg>
         ),
-        title: "Processo rápido e sem burocracia",
+        title: "Somos comprometidos em garantir seu direito",
         description:
-          "Atuamos com agilidade para que você tenha acesso ao seu direito sem enrolação ou processos demorados.",
+          "Atuamos com agilidade, para que você tenha acesso a restituição dos valores, pagos indevidamente.",
       },
       card3: {
         icon: (
