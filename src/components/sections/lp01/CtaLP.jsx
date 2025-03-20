@@ -8,15 +8,15 @@ import SectionWrapper from "../../sectionElements/SectionWrapper";
 export default function AboutParalaxeLP() {
   return (
     <div
-      className="bg-scroll bg-center bg-cover desktop1:bg-fixed"
-      style={{
-        backgroundImage: `url(${contentLp01.cta.bgImg})`,
-        backgroundRepeat: "no-repeat",
-      }}
+      className=""
+      // style={{
+      //   backgroundImage: `url(${contentLp01.cta.bgImg})`,
+      //   backgroundRepeat: "no-repeat",
+      // }}
       id="contact"
     >
-      <div className="flex justify-center w-full text-white bg-opacity-10 bg-primary">
-        <div className="flex justify-center w-full bg-black bg-opacity-80">
+      <div className="flex justify-center w-full text-white bg-secondary">
+        <div className="flex justify-center w-full">
           <SectionArea className="">
             <SectionWrapper>
               <SectionHeader
