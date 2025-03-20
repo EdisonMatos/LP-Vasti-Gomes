@@ -9,7 +9,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function  NavbarSocial({ LightMode }) {
+export default function NavbarSocial({ LightMode }) {
   const [scrolling, setScrolling] = useState(false);
   const [showListGroup, setShowListGroup] = useState(true);
   const [showSidebar, setShowSidebar] = useState(false);
@@ -35,7 +35,7 @@ export default function  NavbarSocial({ LightMode }) {
         setTimeout(() => {
           setShowSidebar(false);
           setIsAnimating(false);
-        }, 950); 
+        }, 950);
       } else {
         setShowSidebar(true);
         setTimeout(() => {
@@ -87,14 +87,14 @@ export default function  NavbarSocial({ LightMode }) {
               ? "bg-white  shadow-md"
               : "bg-transparent"
             : scrolling
-            ? "bg-gradient-to-b from-black to-bgSectionDark bg-opacity-100 shadow-lg transition-all duration-1000 border-b-[1px] border-primary"
+            ? "bg-gradient-to-b from-secondary to-secondary bg-opacity-100 shadow-lg transition-all duration-1000 border-b-[1px] border-primary"
             : "transition-colors duration-1000 border-b-[1px] border-transparent border-black"
         }`}
       >
         <Navbar>
-        <ScrollLink
+          <ScrollLink
             to="home"
-            className="cursor-pointer w-[60%] phone3:w-[70%] tablet1:w-[50%] tablet2:w-[35%] desktop1:w-[40%] desktop2:max-w-[300px]"
+            className="cursor-pointer w-[80%] phone3:w-[85%] tablet1:w-[50%] tablet2:w-[35%] desktop1:w-[50%] desktop2:max-w-[450px]"
             spy={true}
             smooth={true}
             duration={500}
@@ -103,7 +103,7 @@ export default function  NavbarSocial({ LightMode }) {
           >
             <img
               src={content.texts.navbar.logo.img}
-              alt={content.texts.navbar.logo.alt} 
+              alt={content.texts.navbar.logo.alt}
               className={`${
                 LightMode
                   ? scrolling

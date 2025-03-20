@@ -30,7 +30,7 @@ export default function FooterSocial({
       className={
         LightMode
           ? "black"
-          : "bg-gradient-to-b from-bgSectionDark to-black full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat"
+          : "bg-gradient-to-b from-bgSectionDark to-bgSectionDark full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat"
       }
     >
       <SectionArea paddingtop={true} paddingbot={false} className="pb-[23px]">
