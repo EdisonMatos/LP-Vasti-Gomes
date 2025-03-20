@@ -140,7 +140,7 @@ const contentLp01 = {
         ),
         title: "Suporte jurídico especializado",
         description:
-          "Conte com uma advogada especializada para garantir sua isenção e restituição sem complicações.",
+          "Conte com uma Advogada Especializada para garantir sua isenção e restituição de forma adequada.",
       },
     },
   },
