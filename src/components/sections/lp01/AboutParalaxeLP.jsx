@@ -11,10 +11,10 @@ export default function AboutParalaxeLP({ logo }) {
   return (
     <div
       className="bg-scroll bg-center bg-cover desktop1:bg-fixed"
-      style={{
-        backgroundImage: `url(${contentLp01.about.bgImg})`,
-        backgroundRepeat: "no-repeat",
-      }}
+      // style={{
+      //   backgroundImage: `url(${contentLp01.about.bgImg})`,
+      //   backgroundRepeat: "no-repeat",
+      // }}
       id="contact"
     >
       <div className="flex justify-center w-full text-white bg-opacity-10 bg-primary">
