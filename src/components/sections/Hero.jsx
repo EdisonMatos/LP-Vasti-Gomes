@@ -94,7 +94,7 @@ export default function Hero({ appDownloadButtons }) {
                 )}
               </div>
             </div>
-            <div className="flex justify-center w-[90%] tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
+            {/* <div className="flex justify-center w-[90%] tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
               <MotionDivDownToUp className="relative flex justify-end w-full ">
                 <div
                   className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat shadow-custom-opacity shadow-bgSectionDark"
@@ -104,7 +104,14 @@ export default function Hero({ appDownloadButtons }) {
                   }}
                 ></div>
               </MotionDivDownToUp>
-            </div>
+            </div> */}
+            <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-black/30">
+              <img
+                src={content.texts.hero.heroImg}
+                alt={content.texts.hero.heroImg}
+                className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl"
+              />
+            </MotionDivDownToUp>
           </div>
         </div>
       </div>
