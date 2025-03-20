@@ -207,7 +207,7 @@ const content = {
         img: featuresImg2,
         title: "Família",
         subtitle:
-          "Soluções jurídicas em casamento, divórcio, guarda, pensão, partilha, paternidade, adoção e planejamento familiar.",
+          "Soluções judiciais e extrajudiciais em União Estável, casamento, divórcio,  guarda, pensão, partilha, paternidade, adoção e planejamento familiar.",
         description: (
           <div>
             A_Definir
@@ -242,7 +242,8 @@ const content = {
       card3: {
         img: featuresImg3,
         title: "Planejamento Tributário",
-        subtitle: "Estratégias jurídicas para diminuir a carga tributária.",
+        subtitle:
+          "Estratégias jurídicas ou administrativas para diminuir a carga tributária.",
         description: (
           <div>
             A_Definir <br />
