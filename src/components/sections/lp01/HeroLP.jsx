@@ -17,7 +17,7 @@ export default function HeroLP({ fullImg }) {
           <img
             src={contentLp01.hero.logo.logoImg}
             alt={contentLp01.hero.logo.alt}
-            className="ml-[5%] max-w-[70%] pt-[15%]"
+            className="ml-[5%] max-w-[90%] pt-[15%]"
           />
         </MotionDivDownToUp>
         <SectionArea paddingTopAndBottom={false}>
@@ -92,7 +92,7 @@ export default function HeroLP({ fullImg }) {
                     <img
                       src={contentLp01.hero.logo.logoImg}
                       alt={contentLp01.hero.logo.alt}
-                      className=" max-w-[180px] phone3:max-w-[270px] tablet1:w-[280px] desktop1:mb-[60px]"
+                      className=" max-w-[180px] phone3:max-w-[270px] tablet1:max-w-[350px] desktop1:mb-[60px]"
                     />
                   </MotionDivDownToUp>
                   <div className="mt-[30%] phone3:mt-[35%] tablet1:mt-[30px] desktop1:mt-0">
