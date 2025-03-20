@@ -6,12 +6,12 @@ import contentLp01 from "../../../content/contentLp01";
 
 export default function HeroLP({ fullImg }) {
   return fullImg ? (
-    <div className="gradient-LP-Hero">
+    <div className="bg-secondary">
       <div
         className="desktop1:hidden font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] bg-no-repeat h-auto"
-        style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(${contentLp01.hero.bgImg})`,
-        }}
+        // style={{
+        //   backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(${contentLp01.hero.bgImg})`,
+        // }}
       >
         <MotionDivDownToUp className="z-10 flex justify-start desktop1:justify-start">
           <img
@@ -74,21 +74,21 @@ export default function HeroLP({ fullImg }) {
       </div>
       {/*-------- Versão para tablet1 pra frente -------- */}
       <div
-        className="hidden desktop1:flex bg-top bg-[#EEA935] font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] tablet1:bg-cover bg-no-repeat h-auto"
-        style={{
-          backgroundImage: `url(${contentLp01.hero.bgImg})`,
-          backgroundPosition: "top",
-        }}
+        className="hidden desktop1:flex bg-top font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] tablet1:bg-cover bg-no-repeat h-auto"
+        // style={{
+        //   backgroundImage: `url(${contentLp01.hero.bgImg})`,
+        //   backgroundPosition: "top",
+        // }}
       >
         <SectionArea
           paddingTopAndBottom={false}
-          className="h-full bg-black bg-opacity-30"
+          className="h-full bg-sectionDark"
         >
           <SectionWrapper className="">
             <div className="flex w-full">
               <div className="flex phone1:flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
-                <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
-                  <MotionDivDownToUp className="flex justify-start tablet1:justify-center desktop1:justify-start">
+                <div className="flex flex-col w-full">
+                  <MotionDivDownToUp className="flex justify-start tablet1:justify-center">
                     <img
                       src={contentLp01.hero.logo.logoImg}
                       alt={contentLp01.hero.logo.alt}
@@ -97,19 +97,19 @@ export default function HeroLP({ fullImg }) {
                   </MotionDivDownToUp>
                   <div className="mt-[30%] phone3:mt-[35%] tablet1:mt-[30px] desktop1:mt-0">
                     <MotionDivDownToUp className="">
-                      <div className="flex text-lighter justify-center desktop1:justify-start font-bold leading-[45px] phone3:leading-[50px] tablet1:leading-[65px] desktop1:leading-[50px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 desktop1:text-title5 mb-[24px] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
+                      <div className="flex text-lighter justify-center desktop1:justify-start font-bold leading-[45px] phone3:leading-[50px] tablet1:leading-[65px] desktop1:leading-[50px] text-center text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 desktop1:text-title5 mb-[24px] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
                         {contentLp01.hero.textArea.title}
                       </div>
                     </MotionDivDownToUp>
                     <MotionDivDownToUp className="">
-                      <div className="flex justify-center text-center text-lighter desktop1:text-left desktop1:justify-start phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
+                      <div className="flex justify-center text-center text-lighter desktop1:text-center desktop1:justify-start phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
                         <p className="mb-[40px] opacity-100 [text-shadow:_2px_2px_1px_rgb(0_0_0_/_100%)]">
                           {contentLp01.hero.textArea.subtitle}
                         </p>
                       </div>
                     </MotionDivDownToUp>
                     <div className="w-full phone2:w-full tablet2:w-auto">
-                      <div className="flex justify-center w-full desktop1:justify-start">
+                      <div className="flex justify-center w-full">
                         <MotionDivDownToUp>
                           <Button
                             aria-label={
@@ -152,10 +152,7 @@ export default function HeroLP({ fullImg }) {
           backgroundPosition: "top",
         }}
       >
-        <SectionArea
-          paddingTopAndBottom={false}
-          className="bg-red-500 bg-opacity-50"
-        >
+        <SectionArea paddingTopAndBottom={false} className="">
           <SectionWrapper className="">
             <div className="flex w-full ">
               <div className="flex phone1:flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
