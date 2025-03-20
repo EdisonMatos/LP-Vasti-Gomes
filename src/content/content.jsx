@@ -452,7 +452,7 @@ const content = {
           suas dores e oferece respostas claras.
           <br />
           <br />
-          Meu trabalho não é apenas sobre ganhar causas ou processsos, mas sobre
+          Meu trabalho não é apenas sobre ganhar causas ou processos, mas sobre
           fazer a diferença na vida daqueles com quem tenho a honra de
           trabalhar.
           <br />
