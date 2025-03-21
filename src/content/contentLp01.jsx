@@ -63,8 +63,7 @@ const contentLp01 = {
           </svg>
         ),
         title: "Doenças que garantem o benefício",
-        description:
-          "AIDS, Alienação Mental, Cardiopatia Grave, Cegueira (inclusive monocular), Contaminação por Radiação, Doença de Paget em estados avançados (Osteíte Deformante), Doença de Parkinson e Esclerose Múltipla.",
+        description: "Câncer, Doenças do coração, Doenças causadas pelo trabalho, Tuberculose, Doenças mentais, AIDS e HIV, Esclerose múltipla, Doença de Paget, Fibrose Cística, Doença de Parkinson, Hanseníase, Cegueira, Paraplegia e Amputações, Espondiloartrose Anquilosante, Doenças nos rins, Doenças no fígado, Contaminação por radiação.",
       },
       card2: {
         icon: (
