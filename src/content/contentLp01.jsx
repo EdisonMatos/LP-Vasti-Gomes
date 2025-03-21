@@ -54,6 +54,30 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
+            class="lucide lucide-coins"
+          >
+            <circle cx="8" cy="8" r="6" />
+            <path d="M18.09 10.37A6 6 0 1 1 10.34 18" />
+            <path d="M7 6h1v4" />
+            <path d="m16.71 13.88.7.71-2.82 2.82" />
+          </svg>
+        ),
+        title: "Doenças que garantem o benefício",
+        description:
+          "AIDS, Alienação Mental, Cardiopatia Grave, Cegueira (inclusive monocular), Contaminação por Radiação, Doença de Paget em estados avançados (Osteíte Deformante), Doença de Parkinson e Esclerose Múltipla.",
+      },
+      card2: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
             class="lucide lucide-hand-coins"
           >
             <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
@@ -67,7 +91,7 @@ const contentLp01 = {
         description:
           "Laudo Médico comprovando a doença Grave, prontuários e exames e ser aposentado, pensionista, Servidor público, Militar da Reserva ou Reformado ou Beneficiário de Previdência Privada. ",
       },
-      card2: {
+      card3: {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -89,30 +113,6 @@ const contentLp01 = {
         title: "Restituição de valores pagos",
         description:
           "Se você pagou imposto indevidamente, é possível recuperar esses valores.",
-      },
-      card3: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-coins"
-          >
-            <circle cx="8" cy="8" r="6" />
-            <path d="M18.09 10.37A6 6 0 1 1 10.34 18" />
-            <path d="M7 6h1v4" />
-            <path d="m16.71 13.88.7.71-2.82 2.82" />
-          </svg>
-        ),
-        title: "Doenças que garantem o benefício",
-        description:
-          "AIDS, Alienação Mental, Cardiopatia Grave, Cegueira (inclusive monocular), Contaminação por Radiação, Doença de Paget em estados avançados (Osteíte Deformante), Doença de Parkinson e Esclerose Múltipla.",
       },
       card4: {
         icon: (
