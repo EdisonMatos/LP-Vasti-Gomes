@@ -12,7 +12,7 @@ import Icon4 from "../../assets/imgs/icons/icon4.png";
 
 export default function FeaturesWithIcons() {
   return (
-    <SectionArea id="service" className="squares" paddingtop={false}>
+    <SectionArea id="service" className="squares" paddingtop={true}>
       <SectionHeader
         className="text-center"
         miniTitle={content.texts.features.miniTag}
