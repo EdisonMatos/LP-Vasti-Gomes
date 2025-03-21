@@ -63,7 +63,8 @@ const contentLp01 = {
           </svg>
         ),
         title: "Doenças que garantem o benefício",
-        description: "Câncer, Doenças do coração, Doenças causadas pelo trabalho, Tuberculose, Doenças mentais, AIDS e HIV, Esclerose múltipla, Doença de Paget, Fibrose Cística, Doença de Parkinson, Hanseníase, Cegueira, Paraplegia e Amputações, Espondiloartrose Anquilosante, Doenças nos rins, Doenças no fígado, Contaminação por radiação.",
+        description:
+          "Câncer, Doenças do coração, Doenças causadas pelo trabalho, Tuberculose, Doenças mentais, AIDS e HIV, Esclerose múltipla, Doença de Paget, Fibrose Cística, Doença de Parkinson, Hanseníase, Cegueira, Paraplegia e Amputações, Espondiloartrose Anquilosante, Doenças nos rins, Doenças no fígado, Contaminação por radiação.",
       },
       card2: {
         icon: (
@@ -151,8 +152,9 @@ const contentLp01 = {
       <p>
         Pagar imposto indevidamente é um problema que muitos aposentados e
         pensionistas enfrentam. Por isso, atuo de forma ágil e eficiente para
-        garantir seus direitos. Se você tem uma doença grave, pode ter direito à
-        isenção e até à restituição do Imposto de Renda já pago.
+        garantir seus direitos. Se você tem uma doença grave, ou já estiver
+        curado dessa doença, pode ter direito à isenção e até à restituição do
+        Imposto de Renda já pago.
         <br />
         <br />
         Minha missão é encontrar a melhor solução jurídica para você. Entre em
