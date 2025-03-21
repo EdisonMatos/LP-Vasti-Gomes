@@ -13,11 +13,11 @@ export default function HeroLP({ fullImg }) {
         //   backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(${contentLp01.hero.bgImg})`,
         // }}
       >
-        <MotionDivDownToUp className="z-10 flex justify-start desktop1:justify-start">
+        <MotionDivDownToUp className="z-10 flex justify-start desktop1:justify-center">
           <img
             src={contentLp01.hero.logo.logoImg}
             alt={contentLp01.hero.logo.alt}
-            className="ml-[5%] max-w-[90%] pt-[15%]"
+            className=" max-w-[90%] pt-[15%] m-auto"
           />
         </MotionDivDownToUp>
         <SectionArea paddingTopAndBottom={false}>
