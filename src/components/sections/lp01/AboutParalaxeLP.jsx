@@ -1,5 +1,5 @@
 import content from "../../../content/content";
-import aboutImgLpv from "../../../assets/imgs/about/aboutImgLpv.jpg";
+import aboutImgLpv from "../../../assets/imgs/hero/lawHero.webp";
 import contentLp01 from "../../../content/contentLp01";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import Button from "../../interactives/Button";

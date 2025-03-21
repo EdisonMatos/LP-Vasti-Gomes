@@ -1,5 +1,5 @@
 import bgImg from "../assets/imgs/hero/bgHeroLp.jpg";
-import logo from "../assets/imgs/logo/logo.png";
+import logo from "../assets/imgs/logo/logo.webp";
 import { infos } from "./content";
 
 const currentYear = new Date().getFullYear();
@@ -23,9 +23,9 @@ const contentLp01 = {
         <h1>
           <span className=" text-lpTitle">Aposentado ou pensionista,</span>{" "}
           sabia que você pode ter direito à{" "}
-          <span className="  text-lpTitle">isenção do Imposto de Renda </span> e
+          <span className=" text-lpTitle">isenção do Imposto de Renda </span> e
           à restituição dos valores pagos indevidamente{" "}
-          <span className="  text-lpTitle">dos últimos 5 anos? </span>{" "}
+          <span className=" text-lpTitle">dos últimos 5 anos? </span>{" "}
         </h1>
       ),
       subtitle:
