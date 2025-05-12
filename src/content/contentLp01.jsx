@@ -6,7 +6,8 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "Advogada Dra. Vasti Gomes |  Isenção de Impostos em Sorocaba - SP",
+    title:
+      "Advogada Dra. Vasti Gomes | Isenção de Imposto de Renda Doença Grave",
     description:
       "Dra. Vasti Gomes é especialista em buscar isenção de impostos ou restituição de Imposto de Renda para aposentados e pensionistas em Sorocaba - SP",
     keywords:
