@@ -7,7 +7,7 @@ const currentYear = new Date().getFullYear();
 const contentLp01 = {
   infos: {
     title:
-      "Advogada Dra. Vasti Gomes | Isenção de Imposto de Renda Doença Grave",
+      "ISENÇÃO DE IMPOSTO DE RENDA PARA APOSENTADOS E PENSIONISTAS COM DOENÇA GRAVE, ADVOGADA VASTI GOMES",
     description:
       "Dra. Vasti Gomes é especialista em buscar isenção de impostos ou restituição de Imposto de Renda para aposentados e pensionistas em Sorocaba - SP",
     keywords:
