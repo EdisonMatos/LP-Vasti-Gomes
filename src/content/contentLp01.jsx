@@ -7,11 +7,11 @@ const currentYear = new Date().getFullYear();
 const contentLp01 = {
   infos: {
     title:
-      "ISENÇÃO DE IMPOSTO DE RENDA PARA APOSENTADOS E PENSIONISTAS COM DOENÇA GRAVE, ADVOGADA VASTI GOMES",
+      "Consultoria Jurídica Preventiva e Estratégica | Cível, Família e Tributário",
     description:
-      "Dra. Vasti Gomes é especialista em buscar isenção de impostos ou restituição de Imposto de Renda para aposentados e pensionistas em Sorocaba - SP",
+      "Evite problemas jurídicos com consultoria especializada em Direito Cível, Família, Tributário, execuções, contratos, dívidas fiscais e isenção de imposto de renda.",
     keywords:
-      "Isenção de Imposto de Renda,Imposto de Renda aposentados, Isenção IR doenças graves, Restituição IR aposentados, Imposto de Renda pensionistas, Benefícios fiscais aposentados, Isenção IR para doenças, Isenção Imposto de Renda 2025, Aposentado com câncer isenção, Doença grave Imposto de Renda, Restituição Imposto de Renda pensionistas, Isenção IR por doença grave, Imposto de Renda para idosos, Consultoria Imposto de Renda, Isenção de IR aposentados e pensionistas, IR para aposentado com doença grave, Benefícios fiscais para pensionistas, Restituição de IR 2025, Dra. Vasti Gomes isenção IR, Dra. Vasti Gomes consultoria fiscal, Dra. Vasti Gomes Sorocaba SP.",
+      "Evite problemas jurídicos com consultoria especializada em Direito Cível, Família, Tributário, execuções, contratos, dívidas fiscais e isenção de imposto de renda.",
   },
   hero: {
     bgImg: bgImg,
@@ -22,25 +22,21 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          <span className=" text-lpTitle">Aposentado ou pensionista,</span>{" "}
-          sabia que você pode ter direito à{" "}
-          <span className=" text-lpTitle">isenção do Imposto de Renda </span> e
-          à restituição dos valores pagos indevidamente{" "}
-          <span className=" text-lpTitle">dos últimos 5 anos? </span>{" "}
+          Evite problemas jurídicos antes que eles prejudiquem sua vida ou seu
+          patrimônio
         </h1>
       ),
       subtitle:
-        "Se você tem uma doença grave ou já curou-se dessa doença, poderá garantir a isenção e restituição do Imposto de Renda descontados da sua aposentadoria ou pensão! Descubra seus direitos com uma Advogada Especialista.",
-      buttonLabel: "Solicite sua isenção agora!",
+        "Com uma consultoria jurídica acessível, você pode prevenir conflitos, analisar processos já existentes e encontrar a melhor solução para proteger seus direitos nas áreas Cível, Família e Tributária.",
+      buttonLabel: "Solicite sua consultoria agora",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "ISENÇÃO DE IMPOSTO",
-      title:
-        "Você tem direito à isenção e restituição do Imposto de Renda? Descubra agora!",
+      miniTag: "CONSULTORIA JURÍDICA ESTRATÉGICA",
+      title: "Resolva hoje para não sofrer amanhã",
     },
     cards: {
       card1: {
@@ -55,17 +51,14 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-coins"
+            class="lucide lucide-check-icon lucide-check"
           >
-            <circle cx="8" cy="8" r="6" />
-            <path d="M18.09 10.37A6 6 0 1 1 10.34 18" />
-            <path d="M7 6h1v4" />
-            <path d="m16.71 13.88.7.71-2.82 2.82" />
+            <path d="M20 6 9 17l-5-5" />
           </svg>
         ),
-        title: "Doenças que garantem o benefício",
+        title: "Consultoria em Direito de Família",
         description:
-          "Câncer, Doenças do coração, Doenças causadas pelo trabalho, Tuberculose, Doenças mentais, AIDS e HIV, Esclerose múltipla, Doença de Paget, Fibrose Cística, Doença de Parkinson, Hanseníase, Cegueira, Paraplegia e Amputações, Espondiloartrose Anquilosante, Doenças nos rins, Doenças no fígado, Contaminação por radiação.",
+          "Orientação estratégica para divórcio, união estável, guarda de filhos, pensão alimentícia e resolução preventiva de conflitos familiares.",
       },
       card2: {
         icon: (
@@ -79,18 +72,14 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-hand-coins"
+            class="lucide lucide-check-icon lucide-check"
           >
-            <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
-            <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
-            <path d="m2 16 6 6" />
-            <circle cx="16" cy="9" r="2.9" />
-            <circle cx="6" cy="5" r="3" />
+            <path d="M20 6 9 17l-5-5" />
           </svg>
         ),
-        title: "Requisitos para isenção e restituição",
+        title: "Consultoria em Direito Cível",
         description:
-          "Laudo Médico comprovando a doença Grave, prontuários e exames e ser aposentado, pensionista, Servidor público, Militar da Reserva ou Reformado ou Beneficiário de Previdência Privada. ",
+          "Análise e prevenção de problemas com contratos, locações, cobranças, execuções judiciais e desbloqueio de contas bancárias.",
       },
       card3: {
         icon: (
@@ -104,16 +93,14 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign"
+            class="lucide lucide-check-icon lucide-check"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <path d="M20 6 9 17l-5-5" />
           </svg>
         ),
-        title: "Restituição de valores pagos",
+        title: "Consultoria Tributária e Regularização Fiscal",
         description:
-          "Se você pagou imposto indevidamente, é possível recuperar esses valores.",
+          "Soluções para dívidas tributárias, execuções fiscais, IPTU, IPVA, taxas indevidas e estratégias jurídicas para proteção patrimonial.",
       },
       card4: {
         icon: (
@@ -127,15 +114,14 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-house"
+            class="lucide lucide-check-icon lucide-check"
           >
-            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
-            <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+            <path d="M20 6 9 17l-5-5" />
           </svg>
         ),
-        title: "Suporte jurídico especializado",
+        title: "Consultoria para Isenção e Restituição de Imposto de Renda",
         description:
-          "Conte com uma Advogada Especializada para garantir sua isenção e restituição de forma adequada.",
+          "Análise completa para verificar seu direito à isenção e restituição de valores pagos indevidamente por aposentados e pensionistas.",
       },
     },
   },
@@ -146,29 +132,30 @@ const contentLp01 = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "EXPERTISE EM ISENÇÃO DE IMPOSTO DE RENDA",
-      title: "Isenção e restituição com compromisso e eficiência",
+      miniTag: "CONSULTORIA JURÍDICA PREVENTIVA E ESTRATÉGICA",
+      title: "Soluções jurídicas com segurança e eficiência",
     },
     paragraph: (
       <p>
-        Pagar imposto indevidamente é um problema que muitos aposentados e
-        pensionistas enfrentam. Por isso, atuo de forma ágil e eficiente para
-        garantir seus direitos. Se você tem uma doença grave, ou já estiver
-        curado dessa doença, pode ter direito à isenção e até à restituição do
-        Imposto de Renda já pago.
+        Muitas pessoas só procuram ajuda quando o problema já está avançado e os
+        prejuízos já começaram. A consultoria jurídica preventiva permite
+        antecipar riscos, corrigir falhas e tomar decisões com segurança antes
+        que conflitos se tornem processos complexos e custosos.
         <br />
         <br />
-        Minha missão é encontrar a melhor solução jurídica para você. Entre em
-        contato e descubra como podemos ajudar!
+        Se o problema já existe, realizamos uma análise completa para construir
+        a melhor estratégia jurídica para o seu caso. Meu compromisso é oferecer
+        orientação técnica, clareza e soluções eficazes para proteger seus
+        interesses.
       </p>
     ),
-    buttonLabel: "Solicite sua isenção agora",
+    buttonLabel: "Solicite sua consultoria agora",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title: "Por que nos escolher para garantir sua isenção e restituição?",
+      title: "Por que nos escolher para cuidar do seu caso?",
     },
     cards: {
       card1: {
@@ -183,17 +170,14 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-hourglass"
+            class="lucide lucide-check-icon lucide-check"
           >
-            <path d="M5 22h14" />
-            <path d="M5 2h14" />
-            <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" />
-            <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
+            <path d="M20 6 9 17l-5-5" />
           </svg>
         ),
-        title: "Análise detalhada para sua isenção",
+        title: "Análise detalhada e estratégica",
         description:
-          "Cada caso é único. Avaliamos sua situação com atenção para garantir sua isenção e restituição de forma segura e sem complicações.",
+          "Cada situação exige atenção individualizada para identificar riscos e encontrar a melhor solução jurídica.",
       },
       card2: {
         icon: (
@@ -207,16 +191,14 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-history"
+            class="lucide lucide-check-icon lucide-check"
           >
-            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-            <path d="M3 3v5h5" />
-            <path d="M12 7v5l4 2" />
+            <path d="M20 6 9 17l-5-5" />
           </svg>
         ),
-        title: "Somos comprometidos em garantir seu direito",
+        title: "Atuação preventiva para evitar prejuízos",
         description:
-          "Atuamos com agilidade, para que você tenha acesso a restituição dos valores, pagos indevidamente.",
+          "Agimos com estratégia para impedir que pequenos problemas se transformem em grandes prejuízos financeiros e judiciais.",
       },
       card3: {
         icon: (
@@ -230,15 +212,14 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-check"
+            class="lucide lucide-check-icon lucide-check"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="m9 12 2 2 4-4" />
+            <path d="M20 6 9 17l-5-5" />
           </svg>
         ),
-        title: "Compromisso total com você",
+        title: "Atendimento próximo e personalizado",
         description:
-          "Acompanhamos seu caso de perto, oferecendo suporte personalizado em todas as etapas do processo.",
+          "Você recebe suporte direto, acompanhamento completo e orientação clara em cada etapa.",
       },
       card4: {
         icon: (
@@ -252,15 +233,14 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-thumbs-up"
+            class="lucide lucide-check-icon lucide-check"
           >
-            <path d="M7 10v12" />
-            <path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z" />
+            <path d="M20 6 9 17l-5-5" />
           </svg>
         ),
-        title: "Experiência que faz a diferença",
+        title: "Experiência que gera segurança",
         description:
-          "Com nossa técnica especializada,  sabemos exatamente como garantir sua isenção e restituição com segurança e eficiência.",
+          "Conhecimento técnico e atuação prática para conduzir seu caso com eficiência, proteção e resultado.",
       },
     },
   },
@@ -274,21 +254,22 @@ const contentLp01 = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "SEU DIREITO SEM COMPLICAÇÃO",
-      title: "Garanta sua isenção e restituição agora mesmo!",
+      title:
+        "Uma consultoria acessível pode evitar grandes problemas no futuro",
       subtitle: (
         <p>
-          Se você ou um familiar seu, aposentado ou pensionista com doença
-          grave, ou mesmo que já esteja curado dessa doença, poderá ter direito
-          à isenção e possivelmente à restituição dos valores pagos
-          indevidamente no seu Imposto de Renda!
+          Seja para prevenir conflitos, analisar um processo em andamento ou
+          encontrar a melhor solução jurídica para questões familiares,
+          patrimoniais, tributárias ou cíveis, agir cedo faz toda a diferença.
           <br />
           <br />
-          Nossa equipe especializada está pronta para te ajudar a garantir seus
-          direitos de forma eficiente, com atendimento personalizado!
+          Nossa atuação estratégica ajuda você a tomar decisões seguras, evitar
+          prejuízos e proteger seus direitos com atendimento especializado e
+          personalizado.
           <br />
           <br />
-          Recupere seu dinheiro que está retido nas mãos do governo e aproveite
-          para usufruir do que é seu de direito!
+          Invista hoje em orientação jurídica e evite custos muito maiores
+          amanhã.
         </p>
       ),
     },
